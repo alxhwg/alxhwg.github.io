@@ -1,0 +1,90 @@
+/* pokepalettes.com for color palettes!
+    Let's try Empoleon!
+    #103973
+    #528be6
+    #ffffff
+    #295194
+    #bd8b6a
+    #9ccdff
+    #eecd62
+    #ffe683
+    #73a4ee
+    #deeeff
+    #4a73ac
+    #7b5241 */
+/** {
+    border: 1px dashed;
+    border-color: #0000FF
+}*/
+body {
+    background-color: #ffffff;
+    margin-top: 6vh;
+}
+
+.menu_bar {
+    position: fixed;
+    background-color: #103973;
+    width: auto;
+    height: 5vh;
+    width: 100vw;
+    top: 0em;
+    left: 0em;
+}
+
+.menu_bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu_bar li {
+    display: inline-block;
+    width: 20vw;
+}
+.menu_item {
+    color: white;
+    font-family: 'Open Sans',sans-serif;
+    padding-top: .4em;
+    padding-bottom: .25em;
+    text-align: center;
+}
+#inProgress {
+    color: red;
+    margin: auto;
+    list-style-type: none;
+    text-align: center;
+    font-size: 15em;
+}
+/*img {
+    display: block;
+    height: 100px;
+    width: 300px;
+    margin: auto;
+}
+
+p {
+    text-align: center;
+    font-family: Garamond, serif;
+    font-size: 18px;
+}
+
+div {
+    border-radius: 5px;
+    border: 2px solid #6495ED;
+    background-color: #BCD2EE;
+    height: 50px;
+    width: 120px;
+    margin: auto;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #3D59AB;
+    font-family: Verdana, sans-serif;
+}
+
+span {
+    font-weight: bold;
+    font-size: 18px;
+    color: #ffffff;
+}*/
