@@ -38,7 +38,7 @@ body {
 }
 .menu_bar li {
     display: inline-block;
-    width: 14.286vw;
+    width: 33.33vw;
 }
 .menu_item {
     color: white;
