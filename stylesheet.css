@@ -1,3 +1,94 @@
+/** {
+    border: 1px dashed;
+    border-color: #0000FF
+}*/
+
+body {
+    background-color: #ffffff;
+    padding-top: 2.4em;
+    margin: 0 0 0 0;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+.menu_bar {
+    position: fixed;
+    background-color: #103973;
+    width: 100%;
+    top: 0em;
+    left: 0em;
+}
+.menu_bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.menu_bar li {
+    display: inline-block;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.menu_item {
+    color: white;
+    font-family: 'Open Sans',sans-serif;
+    padding-top: .5em;
+    padding-bottom: .75em;
+    text-align: center;
+}
+.menu_item:hover {
+    background-color: #9ccdff;
+    color: #295194;
+}
+
+.text {
+    margin: 1em;
+    font-family: 'Open Sans',sans-serif;
+}
+
+#opening {
+    background-image: url(doe_5643.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 40vw;
+    margin-bottom: 2em;
+    text-align: center;
+}
+#opening div {
+    color: #eecd62;
+    font-size: 5em;
+    font-family: 'Open Sans',sans-serif;
+    font-variant: small-caps;
+    line-height: 40vw;
+}
+
+#color_pallette {
+    text-align: center;
+}
+#color_pallette div {
+    display: inline-block;
+    border-radius: 40%;
+    border: .2em solid black;
+    height: 4em;
+    width: 4em;
+    margin: auto;
+}
+#color_pallette span {
+    line-height: 3.9em;
+    vertical-align: middle;
+}
+
+#inProgress {
+    color: red;
+    list-style-type: none;
+    text-align: center;
+    font-size: 8em;
+}
+
 /* pokepalettes.com for color palettes!
     Let's try Empoleon!
     #103973
@@ -12,48 +103,6 @@
     #deeeff
     #4a73ac
     #7b5241 */
-/** {
-    border: 1px dashed;
-    border-color: #0000FF
-}*/
-body {
-    background-color: #ffffff;
-    margin-top: 6vh;
-}
-
-.menu_bar {
-    position: fixed;
-    background-color: #103973;
-    width: auto;
-    height: 5vh;
-    width: 100vw;
-    top: 0em;
-    left: 0em;
-}
-
-.menu_bar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-.menu_bar li {
-    display: inline-block;
-    width: 14.286vw;
-}
-.menu_item {
-    color: white;
-    font-family: 'Open Sans',sans-serif;
-    padding-top: .4em;
-    padding-bottom: .25em;
-    text-align: center;
-}
-#inProgress {
-    color: red;
-    margin: auto;
-    list-style-type: none;
-    text-align: center;
-    font-size: 15em;
-}
 /*img {
     display: block;
     height: 100px;
