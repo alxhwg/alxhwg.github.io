@@ -31,7 +31,10 @@ a, a:visited {
     padding-left: 2em;
     padding-right: 2em;
 }
-
+.menu_bar a {
+    target-name: new;
+    target-new: tab;
+}
 .menu_item {
     color: white;
     font-family: 'Raleway',sans-serif;
