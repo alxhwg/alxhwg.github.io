@@ -3,17 +3,28 @@
     <head>
         <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
         <link href='https://fonts.googleapis.com/css?family=Raleway:normal&effect=outline' rel='stylesheet' type='text/css'>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script>
+        $(document).ready(function(){
+            $('a[href^="#"]').on('click', function(event) {
+                event.preventDefault();
+                var hash = this.hash;
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top-10
+                }, 800);
+            });
+        });
+        </script>
         <title>Alexander Hwang: Personal Page</title>
     </head>
     <body>
         <div class="menu_bar">
             <ul>
-                <li class="menu_item">Home</li>
-                <li class="menu_item">Projects</li>
-                <li class="menu_item">About Me</li>
-                <!-- <a href="test/index.html"><li class="menu_item">Test</li></a> -->
-                <a href="resumes/resume01.pdf"><li class="menu_item">Resume</li></a>
-
+                <a href="#opening"><li class="menu_item">Home</li></a>
+                <a href="#projects"><li class="menu_item">Projects</li></a>
+                <a href="#about"><li class="menu_item">About Me</li></a>
+                <a href="#contact"><li class="menu_item">Contact Me</li></a>
+                <a target="_blank" href="resumes/resume01.pdf"><li class="menu_item">Resume</li></a>
             </ul>
         </div>
 
@@ -21,7 +32,7 @@
                                  Photo credit goes to the Lawrence Berkeley National Laboratory.">
             <div class="font-effect-outline">Alexander Hwang</div>
         </div>
-        <!--< div id="color_pallette">
+        <!-- <div id="color_pallette">
             <div style="background-color:#103973"><span>#103973</span></div>
             <div style="background-color:#528be6"><span>#528be6</span></div>
             <div style="background-color:#ffffff"><span>#ffffff</span></div>
@@ -34,25 +45,21 @@
             <div style="background-color:#deeeff"><span>#deeeff</span></div>
             <div style="background-color:#4a73ac"><span>#4a73ac</span></div>
             <div style="background-color:#7b5241"><span>#7b5241</span></div>
-        </div> -->
-        <div class="text">
+        </div>  -->
+        <div class="text" id="projects">
             <h2>Projects</h2>
             <p>Section In Progress. (The whole site is still incomplete.)</p>
         </div>
-        <div class="text">
+        <div class="text" id="about">
             <h2>About Me</h2>
             <p>My name is Alexander Hwang, and I am a second year student pursuing a Bachelor of Science in Electrical Engineering and Computer Science at the University of California, Berkeley. I am currently looking for a software internship for Summer 2016.</p>
-            <p>Here's a little about my cutural tastes:<br>Two of my favorite television shows are Sherlock and Running Man. Recent movies that I've watched and loved include Interstellar, Mad Max, and Gone Girl. My favorite and most recently read books are from The Kingkiller Chronicle by Patrick Rothfuss, and I am anxiously awaiting for his thrid installment. I also love listening to music. Some could say, I collect songs. Some of my favorite artists include St. Motel, ST&Delta;RC&Delta;DI&Delta;N, B&Oslash;RNS, and Oh Wonder.</p>
+            <p>Here's a little about my cutural tastes:<br>Two of my favorite television shows are Sherlock and Running Man. Recent movies that I've watched and loved include Interstellar, Mad Max, and Gone Girl. My favorite and most recently read books are from The Kingkiller Chronicle by Patrick Rothfuss, and I am anxiously awaiting for his thrid installment. I also love listening to music. Some could say, I collect songs. Some of my favorite artists include St. Motel, ST&Delta;RC&Delta;DI&Delta;N, B&Oslash;RNS, Jukebox the Ghost, and Oh Wonder.</p>
             <p>Right now, I'm most excited to take CS 170: Efficient Algorithms and Intractable Problems, and to become a member of Eta Kappa Nu. I'm also interested in exploring Android development!</p>
         </div>
-        <!-- <div class="text">
-            <h2>Skills</h2>
-            <p>Curabitur sit amet ante at neque elementum posuere. Phasellus quis aliquam mauris. Aliquam pulvinar maximus magna et accumsan. Donec at efficitur sapien. Suspendisse potenti. Phasellus ultrices vel felis eget dictum. Aliquam lacinia tellus vel tincidunt bibendum. Curabitur sit amet enim sodales, condimentum ligula at, vestibulum arcu. Phasellus commodo pharetra sem sed semper. Curabitur luctus ornare hendrerit. Integer fermentum justo risus, ut blandit lorem imperdiet vel. Vestibulum fringilla vel nisl quis elementum.</p>
-        </div> -->
-        <div class="text">
+        <div class="text" id="contact">
             <h2>Contact/More</h2>
             <div id="links">
-                <div id="contact">
+                <div id="contact_info">
                     <p>Email: <a href="mailto:a.hwang@berkeley.edu">a.hwang@berkeley.edu</a>
                     <br>
                     Phone: 1 949 791 7689</p>
