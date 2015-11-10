@@ -46,7 +46,13 @@ a, a:visited {
     background-color: #9ccdff;
     color: #295194;
 }
-
+#me {
+    target-name: new;
+    target-new: tab;
+}
+#me:hover {
+    cursor: text;
+}
 .text {
     margin: 1em;
     font-family: 'Raleway',sans-serif;
@@ -55,7 +61,7 @@ a, a:visited {
 
 #opening {
     background-color: #9ccdff;
-    background-image: url(images/panorama40p.jpg); 
+    background-image: url(../images/panoramas/panorama40p.jpg); 
     /*Photo credit goes to the Lawrence Berkeley National Laboratory.
     Â© 2010 The Regents of the University of California, through the Lawrence Berkeley National Laboratory.*/
     background-size: 100%;
