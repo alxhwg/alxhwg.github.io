@@ -49,10 +49,8 @@ a, a:visited {
 }
 #wip {
   text-align: center;
+  font-weight: bolder;
 }
-/*#resume li{
-  width: 4.7em;
-}*/
 #resume li span{
   position: relative;
   content: 'Resume';
@@ -90,14 +88,18 @@ a, a:visited {
     text-align: center;
     overflow: hidden;
 }
-#opening div {
+#opening div{
     color: #ecc64b; /*#eecd62;*/
     font-size: 4em;
     font-family: 'Raleway',sans-serif;
     font-variant: small-caps;
     line-height: 36vw;
 }
-
+#spotify {
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
 #links {
     text-align: center;
     margin-top: 2em;
@@ -109,7 +111,7 @@ a, a:visited {
     vertical-align: middle;
 }
 
-#color_pallette {
+/*#color_pallette {
     text-align: center;
 }
 #color_pallette div {
@@ -130,7 +132,7 @@ a, a:visited {
     list-style-type: none;
     text-align: center;
     font-size: 8em;
-}
+}*/
 
 /* pokepalettes.com for color palettes!
     Let's try Empoleon!
