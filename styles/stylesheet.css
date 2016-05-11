@@ -28,8 +28,9 @@ a, a:visited {
 }
 .menu_bar li {
     display: inline-block;
-    padding-left: 2em;
-    padding-right: 2em;
+    /*padding-left: 1.5em;
+    padding-right: 1.5em;*/
+    width: 8em;
 }
 .menu_bar a {
     target-name: new;
@@ -46,6 +47,22 @@ a, a:visited {
     background-color: #9ccdff;
     color: #295194;
 }
+#wip {
+  text-align: center;
+}
+/*#resume li{
+  width: 4.7em;
+}*/
+#resume li span{
+  position: relative;
+  content: 'Resume';
+}
+#resume:hover li span{
+  display: none;
+}
+#resume:hover li:after{
+  content: 'Email Me!';
+}
 #me {
     target-name: new;
     target-new: tab;
@@ -61,7 +78,7 @@ a, a:visited {
 
 #opening {
     background-color: #9ccdff;
-    background-image: url(../images/panoramas/panorama40h.jpg); 
+    background-image: url(../images/panoramas/panorama2000x820.jpg);
     /*Photo credit goes to the Lawrence Berkeley National Laboratory.
     Â© 2010 The Regents of the University of California, through the Lawrence Berkeley National Laboratory.*/
     background-size: 100%;
@@ -74,7 +91,7 @@ a, a:visited {
     overflow: hidden;
 }
 #opening div {
-    color: #eecd62;
+    color: #ecc64b; /*#eecd62;*/
     font-size: 4em;
     font-family: 'Raleway',sans-serif;
     font-variant: small-caps;
